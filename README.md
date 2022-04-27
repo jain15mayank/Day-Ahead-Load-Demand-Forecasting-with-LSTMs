@@ -2,7 +2,7 @@
 
 With the spirit of reproducible research, this repository contains all the codes required to produce the results in the manuscript:
 
-> Jain, M., AlSkaif, T. and Dev, S.(2021). Day-Ahead Electricity Load Demand Forecasting using Long-Short-Term-Memory. *under review*, 2021
+> Jain, M., AlSkaif, T. and Dev, S.(2021). Analyzing Deep Learning Models for Day-Ahead Electricity Load Demand Forecasting. *under review*, 2022
 
 ### Executive summary
 Consumer level inclusion of smart meters has generated electricity consumption data for individual buildings at high temporal resolution. This has allowed electricity companies to analyze and forecast load demand for individual buildings. In this work, we compare the performance of LSTM based architectures with traditional machine learning and statistical techniques like Random Forests, and SARIMA.
