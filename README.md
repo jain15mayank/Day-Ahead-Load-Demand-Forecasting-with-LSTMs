@@ -16,4 +16,4 @@ All codes are written in `python3`.
 + `BiLSTM_train.ipynb`: Trains the Bi-LSTM network and stores its weights.
 + `combinedTest.ipynb`: Loads all the models and/or forecasts from before and compute RMSEs or create visualizations for subjective evaluation.
 
-Note: Models are not uploaded due to high file size
+Note: Random Forest Models are not uploaded due to high file size
