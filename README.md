@@ -5,10 +5,15 @@ With the spirit of reproducible research, this repository contains all the codes
 > Jain, M., AlSkaif, T. and Dev, S.(2021). Day-Ahead Electricity Load Demand Forecasting using Long-Short-Term-Memory. *under review*, 2021
 
 ### Executive summary
-Consumer level inclusion of smart meters has generated electricity consumption data for individual buildings at high temporal resolution. This has allowed electricity companies to analyze and forecast load demand for individual buildings. In this work, we propose a novel deep learning architecture using bi-directional long-short-term-memory units to perform day-ahead load demand forecasting.
+Consumer level inclusion of smart meters has generated electricity consumption data for individual buildings at high temporal resolution. This has allowed electricity companies to analyze and forecast load demand for individual buildings. In this work, we compare the performance of LSTM based architectures with traditional machine learning and statistical techniques like Random Forests, and SARIMA.
 
 ### Code
 All codes are written in `python3`.
 + `pre-processing.ipynb`: Performs the pre-processing of the data file. 
-+ `LSTM_train.ipynb`: Computes the training of the deep neural net. 
-+ `LSTM_test.ipynb`: Computes the final testing of the deep neural net.
++ `arima.py`: Trains the SARIMA method over the training set for a given building and then stores the forecast for the entire test phase. 
++ `randomForest.ipynb`: Trains and stores the random forest model for day-ahead forecasting.
++ `LSTM_train.ipynb`: Trains the LSTM network and stores its weights.
++ `BiLSTM_train.ipynb`: Trains the Bi-LSTM network and stores its weights.
++ `combinedTest.ipynb`: Loads all the models and/or forecasts from before and compute RMSEs or create visualizations for subjective evaluation.
+
+Note: Models are not uploaded due to high file size
